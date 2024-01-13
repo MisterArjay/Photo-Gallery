@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="background.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="photo-gallery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <IMG src="https://images.unsplash.com/photo-1515021863624-9b325c51faab?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="background image" id="background-img">
+    <h1>Photo Gallery</h1>
+    <h2>Quidlat Family</h2>
+    <!--photo-gallery section-->
+    <main>
+      <div class="photo-gallery">
+        <img src="Photo Gallery photos/1.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/2.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/3.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/4.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/5.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/6.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/7.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/8.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/9.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/10.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/11.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/12.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/13.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/14.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/15.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/16.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/17.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/18.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/19.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/20.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/21.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/22.jpg" onclick="FullView(this.src)" >
+        <img src="Photo Gallery photos/23.jpg" onclick="FullView(this.src)" >
+      </div>
+      <div id="full-image">
+        <img id="FullImage" />
+        <span id="close-button" onclick="CloseFullView();">&times;</span>
+      </div>
+    </main>
+
+    <script src="photo-gallery.js"></script>
+  </body>
+</html>
